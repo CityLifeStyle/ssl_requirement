@@ -127,7 +127,7 @@ module SslRequirement
       return false
     elsif request.ssl? && ssl_allowed?
       return true
-    elsif request.ssl? && !ssl_required?
+    elsif request.ssl? && !ssl_required? && request.host != 'htzone.baligam.co.il'
       redirect_to determine_redirect_url(request, false), :status => (redirect_status || :found)
       flash.keep
       return false
