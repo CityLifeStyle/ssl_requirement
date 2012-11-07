@@ -1,7 +1,7 @@
 # -*- encoding: utf-8 -*-
 Gem::Specification.new do |s|
   s.name = "bartt-ssl_requirement"
-  s.version = `cat VERSION`.strip
+  s.version = '1.4.2'
   s.required_rubygems_version = ">= 1.3.6"
   s.authors = [%q{RailsJedi}, %q{David Heinemeier Hansson}, %q{jcnetdev}, %q{bcurren}, %q{bmpercy}, %q{revo}, %q{nathany}, %q{bartt}, %q{Thorben Schröder}]
   s.homepage = "https://github.com/bartt/ssl_requirement"
